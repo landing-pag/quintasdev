@@ -169,6 +169,13 @@ body {
     background-color: var(--color-white);
 }
 
+body.dark-mode {
+            --color-white: #111111;
+            --color-black: #fff;
+            background-color: var(--color-white);
+            color: var(--color-black);
+        }
+
 section {
     position: relative;
     padding-top: 0rem !important;
@@ -525,7 +532,7 @@ header .right {
     background-color: transparent;
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
-    padding: 10px 20px;
+    padding: 4px 6px;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
@@ -883,7 +890,7 @@ footer {
 
     /* GLOBAL */
     .container {
-        padding: 0 1rem;
+        padding: 10px;
     }
 
     section {
@@ -939,10 +946,11 @@ footer {
     .hero__content {
         width: 100%;
         text-align: center;
+        margin-top: 100px;
     }
 
     .hero__content h1 {
-        font-size: 2.10rem;
+        font-size: 1.8rem;
     }
 
     .hero__content p {
